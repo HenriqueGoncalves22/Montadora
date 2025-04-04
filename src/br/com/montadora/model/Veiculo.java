@@ -1,14 +1,14 @@
 package br.com.montadora.model;
 
 public class Veiculo {
-	private String nomeCarro;
+	private String nome;
     private String montadora;
     
-     public String getNomeCarro() {
-		return nomeCarro;
+     public String getNome() {
+		return nome;
 	}
-	public void setNomeCarro(String nomeCarro) {
-		this.nomeCarro = nomeCarro;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 	public String getMontadora() {
 		return montadora;

@@ -9,7 +9,7 @@ public class TesteVeiculo {
 
 		Veiculo veiculo = new Veiculo();
 		
-		veiculo.setNomeCarro("Rafael");
+		veiculo.setNome("Rafael");
 
 	}
 

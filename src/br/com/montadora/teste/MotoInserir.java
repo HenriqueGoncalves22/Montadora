@@ -15,7 +15,7 @@ public class MotoInserir {
 		MotoDAO motodao = new MotoDAO(con);
 
 		moto.setMontadora("Honda");
-		moto.setNomeCarro("XJ");
+		moto.setNome("XJ");
 		moto.setQuantidadeAdesivos(5);
 		System.out.println(motodao.inserir(moto));
 
